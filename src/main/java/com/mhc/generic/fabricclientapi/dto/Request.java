@@ -10,7 +10,7 @@ import java.util.Map;
 public class Request {
 
 
-    @ApiModelProperty
+    @ApiModelProperty(example = "{\"transactions\":[{\"FCN\":\"invoke\", \"arg0\":\"a\", \"arg1\":\"b\"},{\"FCN\":\"invoke\", \"arg0\":\"b\", \"arg1\":\"a\"}]}")
     List<Map<String, Object>> transactions;
 
 
