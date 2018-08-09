@@ -45,7 +45,7 @@
   },
   "orderers": {
     "orderer1": {
-      "url": "grpc://169.60.177.199:31010",
+      "url": "grpc://127.0.0.1:31010",
       "grpcOptions": {
         "ssl-target-name-override": "orderer1",
         "grpc-max-send-message-length": 15
@@ -55,7 +55,7 @@
       }
     },
     "orderer2": {
-      "url": "grpc://169.60.177.199:32010",
+      "url": "grpc://127.0.0.1:32010",
       "grpcOptions": {
         "ssl-target-name-override": "orderer2",
         "grpc-max-send-message-length": 15
@@ -67,16 +67,16 @@
   },
   "peers": {
     "peer0": {
-      "url": "grpc://169.60.177.199:30110",
-      "eventUrl": "grpc://169.60.177.199:30111",
+      "url": "grpc://127.0.0.1:30110",
+      "eventUrl": "grpc://127.0.0.1:30111",
       "grpcOptions": {
         "ssl-target-name-override": "peer0",
         "grpc.http2.keepalive_time": 15
       }
     },
     "peer1": {
-      "url": "grpc://169.60.177.199:30210",
-      "eventUrl": "grpc://169.60.177.199:30211",
+      "url": "grpc://127.0.0.1:30210",
+      "eventUrl": "grpc://127.0.0.1:30211",
       "grpcOptions": {
         "ssl-target-name-override": "peer1"
       }
@@ -84,7 +84,7 @@
   },
   "certificateAuthorities": {
     "ca-org1": {
-      "url": "http://169.60.177.199:30054",
+      "url": "http://127.0.0.1:30054",
       "httpOptions": {
         "verify": true
       },

@@ -40,8 +40,8 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("Visa IT duration test")
-                .description("Visa project TPS portal")
+                .title("")
+                .description("")
                 .contact(new Contact("", "", ""))
                 .version("0.0.1-SNAPSHOT")
                 .build();
